@@ -1,0 +1,97 @@
+.IncreaseCard-section{
+    width: 100%;
+}
+
+.IncreaseCard-container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.IncreaseCard-container .left{
+    width: 47%;
+
+}
+
+.IncreaseCard-container .left img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.IncreaseCard-container .right{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.IncreaseCard-container .right .about{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: #8F191F;
+    color: white;
+    padding: 5px;
+}
+
+.IncreaseCard-container .right .about span{
+    font-size: 18px;
+    position: relative;
+    padding-right: 8px;
+    white-space: nowrap;
+}
+
+.IncreaseCard-container .right .about span::after{
+    content: "";
+    height: 100%;
+    width: 2px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: white;
+    margin-left: 5px;
+}
+
+.IncreaseCard-container .right .about span:nth-child(3):after{
+    display: none;
+}
+
+.IncreaseCard-container .right h2{
+    font-size: 26px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.IncreaseCard-container .right a{
+    background-color: #131739;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding: 10px 25px;
+}
+
+@media (max-width:750px) {
+
+    .IncreaseCard-container{
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 20px;
+    }
+    
+    .IncreaseCard-container .left{
+        width: 100%;
+    }
+
+    .IncreaseCard-container .right{
+        width: 100%;
+    }
+    
+}

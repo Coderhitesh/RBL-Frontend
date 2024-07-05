@@ -1,0 +1,101 @@
+.HaveQuestion-section {
+    width: 100%;
+    background-color: #F7F9FF;
+}
+
+.HaveQuestion-section .HaveQuestion-container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 60px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HaveQuestion-section .HaveQuestion-container .left {
+    width: 36%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.HaveQuestion-section .HaveQuestion-container .left .heading {
+    display: flex;
+    flex-direction: column;
+    /* gap: 5px; */
+}
+
+.HaveQuestion-section .HaveQuestion-container .left .heading h2 {
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.HaveQuestion-section .HaveQuestion-container .left p {
+    color: rgb(98, 98, 98);
+}
+
+.HaveQuestion-section .HaveQuestion-container .left .mail {
+    border: 1px solid rgb(127, 127, 127);
+    border-radius: 12px;
+    display: flex;
+    gap: 14px;
+    padding: 14px;
+    padding-left: 25px;
+}
+
+.HaveQuestion-section .HaveQuestion-container .left .mail i {
+    /* font-weight: 700; */
+    font-size: 22px;
+}
+
+.HaveQuestion-section .HaveQuestion-container .left .mail .detail {
+    display: flex;
+    flex-direction: column;
+    /* gap: 5px; */
+}
+
+.HaveQuestion-section .HaveQuestion-container .left .mail .detail h3 {
+    color: rgb(98, 98, 98);
+}
+
+.HaveQuestion-section .HaveQuestion-container .left .mail .detail a {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.HaveQuestion-section .HaveQuestion-container .right {
+    width: 50%;
+}
+
+@media (max-width:1000px) {
+    
+    .HaveQuestion-section .HaveQuestion-container .left {
+        width: 46%;
+    }
+    
+}
+
+@media (max-width:830px) {
+
+.HaveQuestion-section .HaveQuestion-container {
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+
+.HaveQuestion-section .HaveQuestion-container .left {
+    width: 100%;
+}
+
+.HaveQuestion-section .HaveQuestion-container .right {
+    width: 100%;
+}
+    
+}
+
+@media (max-width:750px) {
+    .HaveQuestion-section .HaveQuestion-container{
+        padding: 40px 20px;
+    }
+}

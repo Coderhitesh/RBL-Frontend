@@ -1,0 +1,88 @@
+
+/* ------ Apply Now [PAGE] --  */
+.form-data input,
+.form-data select {
+    border: 2px solid #ddd;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, .1);
+    color: #666;
+    -webkit-transition: color .1s ease-in-out;
+    transition: color .1s ease-in-out;
+    padding: 0.8rem 0.8rem;
+}
+
+.form-data input:focus,
+.form-data select:focus {
+    border-color: #fccd52;
+    box-shadow: 0 0 16px -8px #fccd52;
+}
+
+.form-data h2 {
+    color: var(--color-light-black);
+}
+
+#mainForm h5 {
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.form-data .side-apply {
+    margin-top: 4rem;
+}
+
+.form-data .side-apply h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--color-light-black);
+    margin-bottom: 0rem;
+}
+
+.form-data .side-apply h4.lock {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    border-top: 2px solid var(--color-yellow);
+}
+
+.form-data .side-apply b {
+    font-size: 0.9rem;
+    font-weight: 550;
+}
+
+.form-data .side-apply span {
+    color: #2093B6;
+}
+
+.form-data .side-apply i {
+    color: #2093B6;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.form-data .btn {
+    background: #fccd52;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.form-data .btn:focus {
+    box-shadow: none;
+}
+
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}

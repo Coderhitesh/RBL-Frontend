@@ -1,0 +1,78 @@
+.AttractiveRate-section{
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.AttractiveRate-section .AttractiveRate-container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 60px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* align-items: center;
+    justify-content: center; */
+}
+    
+.AttractiveRate-section .AttractiveRate-container .heading{
+    width: 100%;
+    text-align: center;
+}
+
+.AttractiveRate-section .AttractiveRate-container .heading h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.AttractiveRate-section .AttractiveRate-container .AttractiveRate-main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.AttractiveRate-section .AttractiveRate-container .AttractiveRate-main-container .col{
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.AttractiveRate-section .AttractiveRate-container .AttractiveRate-main-container .col p{
+    font-size: 18px;
+}
+
+.AttractiveRate-section .AttractiveRate-container .AttractiveRate-main-container .col span{
+    font-weight: 900;
+    font-size: 28px;
+}
+
+@media (max-width:750px) {
+
+    .AttractiveRate-section .AttractiveRate-container{
+        max-width: 1920px;
+        margin: 0 auto;
+        padding: 40px 20px;
+    }
+
+    .AttractiveRate-section .AttractiveRate-container .AttractiveRate-main-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .AttractiveRate-section .AttractiveRate-container .AttractiveRate-main-container .col{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+    }
+    
+}

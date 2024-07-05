@@ -1,0 +1,112 @@
+.OurPartner-section{
+    width: 100%;
+}
+
+.OurPartner-section .OurPartner-container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 60px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.OurPartner-section .OurPartner-container .heading{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.OurPartner-section .OurPartner-container .heading h2{
+    font-size: 28px;
+    font-weight: 700;
+    
+}
+
+.OurPartner-section .OurPartner-container .heading h2 span{
+    color: #2FB4F0;
+}
+    
+.OurPartner-section .OurPartner-container .heading p{
+    color: #676568;
+    text-align: center;
+}
+    
+.OurPartner-section .OurPartner-container .main-data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+    
+.OurPartner-section .OurPartner-container .main-data .img{
+    width: 14%;
+    padding: 27px;
+    height: 92px;
+    text-align: center;
+    border-radius: 4px;
+    border: solid .6px #dedfdf;
+    background-color: #fff;
+    transition: all .1s;
+    -webkit-transition: all .1s;
+    -moz-transition: all .1s;
+    filter: grayscale(100%);
+    opacity: .6;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s linear;
+}
+    
+.OurPartner-section .OurPartner-container .main-data .img img{
+    width: 100%;
+    object-fit: cover;
+}
+    
+.OurPartner-section .OurPartner-container .main-data .img:hover{
+    filter: grayscale(0);
+    opacity: 1;
+    cursor: pointer;
+}
+
+@media (max-width:970px) {
+
+    .OurPartner-section .OurPartner-container .main-data .img{
+        width: 17%;
+        height: 92px;
+    }
+    
+}
+
+@media (max-width:860px) {
+
+    .OurPartner-section .OurPartner-container .main-data .img{
+        width: 20%;
+        padding: 27px;
+        height: 92px;
+    }
+    
+}
+
+@media (max-width:738px) {
+
+    .OurPartner-section .OurPartner-container{
+        
+        padding: 40px 20px;
+    }
+
+    .OurPartner-section .OurPartner-container .main-data .img{
+        width: 25%;
+        padding: 0px;
+        height: 70px;
+    }
+    
+}

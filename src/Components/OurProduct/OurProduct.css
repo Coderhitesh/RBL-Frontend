@@ -1,0 +1,99 @@
+.OurProduct-section{
+    width: 100%;
+}
+
+.OurProduct-section .OurProduct-container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.OurProduct-section .OurProduct-container .heading{
+    width: 100%;
+    text-align: start;
+}
+
+.OurProduct-section .OurProduct-container .heading h1{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.OurProduct-section .OurProduct-container .main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.OurProduct-section .OurProduct-container .main-container .col{
+    width: 31%;
+    border-radius: 14px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px rgb(162, 162, 162);
+}
+
+.OurProduct-section .OurProduct-container .main-container .col .content{
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    padding: 17px 0px;
+}
+
+.OurProduct-section .OurProduct-container .main-container .col .content span{
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.OurProduct-section .OurProduct-container .main-container .col .content .btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.OurProduct-section .OurProduct-container .main-container .col .content .btn button{
+    padding: 7px 17px;
+}
+
+.OurProduct-section .OurProduct-container .main-container .col .content .btn button:nth-child(1){
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    font-weight: 500;
+}
+
+.OurProduct-section .OurProduct-container .main-container .col .content .btn button:nth-child(2){
+    background-color: #2235DD;
+    border: 1px solid black;
+    color: white;
+    font-weight: 500;
+}
+
+@media (max-width:750px) {
+
+    .OurProduct-section .OurProduct-container{
+        padding: 40px 20px;
+    }
+
+    .OurProduct-section .OurProduct-container .main-container{
+        flex-direction: column;
+        gap: 25px;
+    }
+    
+    .OurProduct-section .OurProduct-container .main-container .col{
+        width: 100%;
+    }
+    
+    
+}

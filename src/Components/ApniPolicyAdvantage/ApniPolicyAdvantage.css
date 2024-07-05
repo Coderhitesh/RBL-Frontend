@@ -1,0 +1,29 @@
+.ApniPolicyAdvantage-section{
+    width: 100%;
+}
+
+.ApniPolicyAdvantage-section .ApniPolicyAdvantage-container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ApniPolicyAdvantage-section .ApniPolicyAdvantage-container .heading{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ApniPolicyAdvantage-section .ApniPolicyAdvantage-container .heading h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.ApniPolicyAdvantage-section .ApniPolicyAdvantage-container .heading h2 span{
+    color: #593B8A;
+}

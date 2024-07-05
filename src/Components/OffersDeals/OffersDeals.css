@@ -1,0 +1,93 @@
+.OffersDeals-section{
+    width: 100%;
+}
+
+.OffersDeals-section .OffersDeals-container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 60px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.OffersDeals-section .OffersDeals-container .heading h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.OffersDeals-section .OffersDeals-container .main-data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.OffersDeals-section .OffersDeals-container .main-data .data1{
+    width: 31%;
+    height: 380px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.OffersDeals-section .OffersDeals-container .main-data .data1:nth-child(1){
+    background-image: url(./o1.jpeg);
+}
+
+.OffersDeals-section .OffersDeals-container .main-data .data1:nth-child(2){
+    background-image: url(./o2.jpeg);
+}
+
+.OffersDeals-section .OffersDeals-container .main-data .data1:nth-child(3){
+    background-image: url(./o3.jpeg);
+}
+
+.OffersDeals-section .OffersDeals-container .main-data .data1 .info{
+    width: 100%;
+    height: 40%;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+    /* background-color: red; */
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+    
+.OffersDeals-section .OffersDeals-container .main-data .data1 .info a{
+    padding: 4px 8px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+
+.OffersDeals-section .OffersDeals-container .main-data .data1 .info h2{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+@media (max-width:750px) {
+
+    .OffersDeals-section .OffersDeals-container{
+        padding: 40px 20px;
+    }
+
+    .OffersDeals-section .OffersDeals-container .main-data{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .OffersDeals-section .OffersDeals-container .main-data .data1{
+        width: 100%;
+    }
+    
+}

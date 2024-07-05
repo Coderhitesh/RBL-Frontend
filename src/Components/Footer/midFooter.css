@@ -1,0 +1,27 @@
+.mid-footer-li{
+    position: relative;
+}
+
+.mid-footer-li::after{
+    content: '';
+    height: 100%;
+    width: 2px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: -10px;
+}
+
+@media (max-width:750px) {
+    .midfooterul{
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start !important;
+        /* justify-content: flex-start; */
+        padding-left: 40px;
+    }
+
+    .mid-footer-li::after{
+        display: none;
+    }
+}

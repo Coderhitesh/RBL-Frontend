@@ -1,0 +1,22 @@
+.otp-section{
+    min-height: 80vh;
+}
+.otp-container{
+    width: 40%;
+}
+.otp-container .heading{
+    color: brown;
+}
+
+@media only screen and (max-width: 800px){
+    .otp-container {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .otp-container {
+        width: 90%;
+        padding: 0.5rem 1rem !important;
+    }
+    
+}

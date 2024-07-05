@@ -1,0 +1,69 @@
+.offer-section {
+    width: 100%;
+}
+
+.offer-section .offer-container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 60px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.offer-section .offer-container .offer-heading {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.offer-section .offer-container .offer-heading h2 {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.offer-section .offer-container .offer-heading h2 span {
+    color: #2FB4F0;
+}
+
+.offer-section .offer-container .offer-heading p {
+    color: #676568;
+    text-align: center;
+}
+
+.offer-section .offer-container .offer-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+}
+
+.offer-section .offer-container .offer-box .navigator {
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #074E6E;
+    border-radius: 10px;
+}
+
+.offer-section .offer-container .offer-box .navigator .navigate {
+    color: white;
+    padding: 6px 15px;
+}
+
+.offer-section .offer-container .offer-box .navigator .navigate p {
+    border-radius: 10px;
+    padding: 0px 18px;
+}
+
+.active{
+    background-color: cadetblue !important;
+}

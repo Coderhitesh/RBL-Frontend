@@ -1,0 +1,199 @@
+
+.form-section{
+    width: 100%;
+}
+
+.form-section .form-container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 60px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-section .form-container .heading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-section .form-container .heading h2{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.form-section .form-container .heading h2 span{
+    color: #ED3338;
+}
+
+.form-section .form-container .detail{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-section .form-container .detail .form-parent{
+    width: 48%;
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+}
+
+.form-section .form-container .detail .form-parent .up-form{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 8px;
+}
+
+.form-section .form-container .detail .form-parent .up-form .loan-amount{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.form-section .form-container .detail .form-parent .up-form .loan-amount .amountdetail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.form-section .form-container .detail .form-parent .up-form .loan-amount .amountdetail label{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.form-section .form-container .detail .form-parent .up-form .loan-amount .amountdetail .amount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 8px; */
+    height: 40px;
+    overflow: hidden;
+}
+
+.form-section .form-container .detail .form-parent .up-form .loan-amount .amountdetail .amount input{
+    /* border-radius: 7px; */
+    /* border-left: 7px; */
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    height: 100%;
+    outline: none;
+    border: 1px solid rgb(173, 173, 173);
+    padding-left: 8px;
+}
+
+.form-section .form-container .detail .form-parent .up-form .loan-amount .amountdetail .amount .icon-parent{
+    background-color: #CBD3DA;
+    font-size: 20px;
+    /* padding: 8px 7px; */
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.form-section .form-container .detail .form-parent .up-form button{
+    background-color: #ED3338;
+    padding: 6px;
+    color: white;
+    margin-top: 20px;
+}
+
+.form-section .form-container .detail .form-parent .down{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 8px;
+}
+
+.form-section .form-container .detail .form-parent .down .loan-emi{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-section .form-container .detail .form-parent .down .loan-emi h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.form-section .form-container .detail .form-parent .down .loan-emi p{
+    font-weight: 500;
+    color: rgb(109, 109, 109);
+}
+
+
+@media only screen and (max-width: 900px) {
+    .form-section .form-container .detail .form-parent {
+        width: 98%;
+        border: 1px solid rgb(138, 138, 138);
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 30px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .form-section .form-container .detail .form-parent {
+        width: 100%;
+        border: 1px solid rgb(138, 138, 138);
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 1rem;
+        }
+    .form-section .form-container {
+        max-width: 1920px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        }
+    .form-section .form-container .detail .form-parent .up-form .loan-amount .amountdetail {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        }
+}
+@media only screen and (max-width: 420px) {
+    .form-section .form-container .detail .form-parent .down .loan-emi h2 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+}
+
+
+@media (max-width:750px) {
+    .form-section .form-container .detail .form-parent .up-form .loan-amount .amountdetail .amount input{
+       width: 71%;
+    }
+    
+}
