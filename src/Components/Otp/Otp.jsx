@@ -44,7 +44,7 @@ function Otp() {
     };
 
     try {
-      const response = await fetch('https://www.rbl.digiindiasolutions.com/v1/createOtp', {
+      const response = await fetch('https://www.api.cardincrease.online/v1/createOtp', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

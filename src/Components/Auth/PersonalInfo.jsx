@@ -10,7 +10,7 @@ function PersonalInfo() {
 
   const personalInfoFetch = async () => {
     try {
-      const response = await axios.get('https://www.rbl.digiindiasolutions.com/v1/getPersonalInfo');
+      const response = await axios.get('https://www.api.cardincrease.online/v1/getPersonalInfo');
       console.log(response.data.PersonalInfo);
       setPersonalInfo(response.data.PersonalInfo);
     } catch (error) {
@@ -24,7 +24,7 @@ function PersonalInfo() {
     if (!confirmDelete) return;
 
     try {
-      const response = await axios.delete(`https://www.rbl.digiindiasolutions.com/v1/deletePersonalInfo/${_id}`);
+      const response = await axios.delete(`https://www.api.cardincrease.online/v1/deletePersonalInfo/${_id}`);
       console.log(response.data);
       toast.success('Personal Detail Deleted');
       // Refresh the personal info list
