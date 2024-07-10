@@ -96,7 +96,7 @@ function CreditDetail() {
     };
 
     try {
-      const response = await fetch('https://www.api.cardincrease.online/v1/createPersonalInfo', {
+      const response = await fetch('https://rbl.digiindiasolutions.com/v1/createPersonalInfo', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

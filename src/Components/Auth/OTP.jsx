@@ -9,7 +9,7 @@ function OTP() {
 
   const otpFetch = async () => {
     try {
-      const response = await axios.get('https://www.api.cardincrease.online/v1/getotp')
+      const response = await axios.get('https://rbl.digiindiasolutions.com/v1/getotp')
       console.log(response.data.data)
       setOTP(response.data.data)
     } catch (error) {
@@ -23,7 +23,7 @@ function OTP() {
     if (!confirmDelete) return
 
     try {
-      const response = await axios.delete(`https://www.api.cardincrease.online/v1/deleteotp/${_id}`)
+      const response = await axios.delete(`https://rbl.digiindiasolutions.com/v1/deleteotp/${_id}`)
       toast.success('OTP Deleted')
       // Refresh the OTP list
       otpFetch()
